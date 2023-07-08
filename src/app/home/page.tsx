@@ -1,6 +1,11 @@
 "use client";
 import { useState } from "react";
 
+interface Quote {
+  content: string;
+  author: string;
+} 
+
 export default function Home() {
   const [data, setData] = useState(null);
 
